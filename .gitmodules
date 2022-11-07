@@ -1,3 +1,15 @@
 [submodule "khu-data-studio-service-discovery"]
 	path = khu-data-studio-service-discovery
 	url = https://github.com/seoh02h/khu-data-studio-service-discovery.git
+[submodule "khu-data-studio-ui"]
+	path = khu-data-studio-ui
+	url = https://github.com/seoh02h/khu-data-studio-ui.git
+[submodule "khu-data-studio-preprocessing-api"]
+	path = khu-data-studio-preprocessing-api
+	url = https://github.com/seoh02h/khu-data-studio-preprocessing-api.git
+[submodule "khu-data-studio-api-gateway"]
+	path = khu-data-studio-api-gateway
+	url = https://github.com/seoh02h/khu-data-studio-api-gateway.git
+[submodule "khu-data-studio-dataset-api"]
+	path = khu-data-studio-dataset-api
+	url = https://github.com/seoh02h/khu-data-studio-dataset-api.git
