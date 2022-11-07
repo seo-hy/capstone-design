@@ -1,0 +1,3 @@
+[submodule "khu-data-studio-service-discovery"]
+	path = khu-data-studio-service-discovery
+	url = https://github.com/seoh02h/khu-data-studio-service-discovery.git
