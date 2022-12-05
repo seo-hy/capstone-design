@@ -20,7 +20,7 @@
 
 ### 데이터셋 관리
 
-* 데이터셋 리스트
+#### 데이터셋 리스트
 
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/68395698/205538854-47d4754c-6a2b-4fab-ac17-6065683d0c0a.png">
 
@@ -38,16 +38,27 @@
 
 ### 데이터 현황
 
-#### 시각화
 * 데이터셋 선택
 
+메뉴 클릭 시 먼저 데이터셋을 선택할 수 있는 모달이 나타난다. 모달을 통해 원하는 데이터셋을 선택하여 시각화/통계를 수행한다.
+
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/68395698/205539122-b91aa8a8-3d62-443a-9888-88441b1de9fb.png">
+
 
 * 데이터 시각화
 
 <img width="1438" alt="image" src="https://user-images.githubusercontent.com/68395698/205539240-b047b89f-259a-4d3a-a61e-511bf7fd55fa.png">
 
-#### 데이터 통계
+상단의 컬럼 라벨을 클릭하여 해당 컬럼 데이터의 디스플레이 여부를 결정할 수 있다.
+우측 상단 기간 선택 기능을 통해 날짜별 필터링을 수행할 수 있다. 날짜 선택 컴포넌트의 경우 아래 이미지와 같이 일별, 주별, 월별, 계절별로 원하는 기간을 선택할 수 있다.
+
+
+<img width="409" alt="image" src="https://user-images.githubusercontent.com/68395698/205539506-8ef05e38-7db2-4e12-8da7-e15337a153db.png">
+
+
+* 데이터 통계
+
+통계 메뉴 클릭 시 마찬가지로 데이터셋 선택 모달이 나타나며 데이터셋 선택 시 해당하는 데이터셋에 대한 표본표준편차, 평균, 피어슨 상관계수 계산 결과를 보여준다. 우측 상단의 기간 선택 기능을 통하여 날짜별 필터링을 수행할 수 있다. 피어슨 상관계수의 경우 임계값 입력을 통해 특정 임계값을 넘는 데이터에 하이라이트를 수행할 수 있다.
 
 <img width="1435" alt="image" src="https://user-images.githubusercontent.com/68395698/205539288-6e3224d2-30c0-4f79-ae9c-82517ce5eefe.png">
 
