@@ -51,7 +51,49 @@ cd ./khu-data-studio-dataset-api
 java -jar ./build/libs/khu-data-studio-dataset-api-0.0.1-SNAPSHOT.jar
 ```
 
+## VAR 모델 기반 예측값 대체 프로세스
+
+### 전체 프로세스 요약
+1.	지수 이동 평균 EMA 방식을 이용한 노이즈 제거
+2.	피어슨 상관 계수를 계산하여 상관 관계를 가지는 컬럼 선택
+3.	VAR 모델을 이용하여 복합 데이터 학습
+4.	결측치 예측
+
+### 1. 지수 이동 평균 EMA 방식을 이용한 노이즈 제거
+
+* 지수 이동 평균(Exponential Moving Average)
+* 가중변수를 이용하여 최근 수치의 영향력은 높이고 과거 수치의 영향력은 낮추는 기법
+
+```
+EMA(i) = k * price(i) + (1-k) * EMA(i-1)
+```
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205540910-f0887d56-815a-4c83-a43c-8033209cd2aa.png">
+
+### 2. 피어슨 상관 계수를 계산하여 상관 관계를 가지는 컬럼 선택
+
+* 노이즈 제거를 먼저 수행하는 이유는 노이즈 제거 후 피어슨 상관 계수 계산 시 절댓값이 향상
+* 노이즈 제거 후 피어슨 상관 계수 계산 결과 시 상관 관계가 존재하는 컬럼에 대하여 계산 결과 절댓값이 증가하는 경향을 확인할 수 있다
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205540972-6a3dfa93-caa7-4f46-8a31-2ac228445d40.png">
+
+### 3. VAR 모델을 이용하여 복합 데이터 학습
+* Vector Auto Regression 벡터 자동 회귀 모델을 통해 복합 데이터 예측을 위한 학습을 수행
+* VAR은 예측할 변수의 과거 값 뿐만 아니라 예측할 변수와 의존성이 있는 변수까지 고려하여 선형 함수로 나타내는 확률적 과정
+* 성능평가 데이터 : ‘스마트 플랜트 이상상태 조기감지를 위한 머신러닝 기반 저대역 영상/통신 Edge Computing 시스템’ 과제에서 발전설비 이상 상태 조기 감지를 위해 센서로 수집된 데이터
+* p 차 VAR 모델
+
+<img width="376" alt="image" src="https://user-images.githubusercontent.com/68395698/205542006-2f5f9b9b-3e88-4a89-930e-5dd930ad0b68.png">
+변수 c는 모델의 절편 역할을 하는 상수의 k 벡터, A i는 시불변 ( k × k )-행렬 및 e t는 오류 항의 k- 벡터
+
+### 4.	결측치 예측
+
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205541040-37686275-5216-4244-add6-e1201baa09ad.png">
+
+
 ## KHU Data Studio
+
 
 ### 데이터셋 관리
 
@@ -96,5 +138,6 @@ java -jar ./build/libs/khu-data-studio-dataset-api-0.0.1-SNAPSHOT.jar
 통계 메뉴 클릭 시 마찬가지로 데이터셋 선택 모달이 나타나며 데이터셋 선택 시 해당하는 데이터셋에 대한 표본표준편차, 평균, 피어슨 상관계수 계산 결과를 보여준다. 우측 상단의 기간 선택 기능을 통하여 날짜별 필터링을 수행할 수 있다. 피어슨 상관계수의 경우 임계값 입력을 통해 특정 임계값을 넘는 데이터에 하이라이트를 수행할 수 있다.
 
 <img width="1435" alt="image" src="https://user-images.githubusercontent.com/68395698/205539288-6e3224d2-30c0-4f79-ae9c-82517ce5eefe.png">
+
 
 
