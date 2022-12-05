@@ -14,7 +14,7 @@
 
 ## Package Design
 
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537731-f81da900-dd4c-4527-9f5a-fbc400827169.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205538268-026c5588-e8bc-4fb6-9059-3a39b8df61cd.png">
 
 ## KHU Data Studio
 
@@ -22,20 +22,33 @@
 
 * 데이터셋 리스트
 
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537877-7b5b1763-ff82-4dc0-8cdb-e252a7d83358.png">
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/68395698/205538854-47d4754c-6a2b-4fab-ac17-6065683d0c0a.png">
 
 * 데이터베이스 테이블을 통한 데이터셋 등록 
 
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537900-8e2becbd-f247-4bb4-96f9-ee6d9f27ddca.png">
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/68395698/205538896-6d0facbd-2912-4074-ae56-dace12a9f36a.png">
 
 * 정보 입력 후 프리뷰
 
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537946-50596efb-1081-4b16-a330-b9f812e9a024.png">
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/68395698/205538930-6d38d736-a5ec-4290-b426-7b4f476a934d.png">
 
 * CSV 파일을 통한 데이터셋 등록
 
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205538051-20b40307-3e37-44d3-b22b-6d0e89f6b7e7.png">
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/68395698/205539006-f3d03172-e221-46cf-a2c6-74563946bf0b.png">
 
+### 데이터 현황
 
+#### 시각화
+* 데이터셋 선택
+
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/68395698/205539122-b91aa8a8-3d62-443a-9888-88441b1de9fb.png">
+
+* 데이터 시각화
+
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/68395698/205539240-b047b89f-259a-4d3a-a61e-511bf7fd55fa.png">
+
+#### 데이터 통계
+
+<img width="1435" alt="image" src="https://user-images.githubusercontent.com/68395698/205539288-6e3224d2-30c0-4f79-ae9c-82517ce5eefe.png">
 
 
