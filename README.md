@@ -9,9 +9,6 @@
 ## System Architecture
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537286-e66ca81d-1e4b-4a99-b834-67a972bfdabf.png">
 
-## ERD
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537482-073a1792-7dd8-4d30-8ffc-c9e83e4490d2.png">
-
 ## Package Design
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205538268-026c5588-e8bc-4fb6-9059-3a39b8df61cd.png">
