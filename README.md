@@ -7,5 +7,35 @@
 
 
 ## System Architecture
-<img width="452" alt="image" src="https://user-images.githubusercontent.com/68395698/205537286-e66ca81d-1e4b-4a99-b834-67a972bfdabf.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537286-e66ca81d-1e4b-4a99-b834-67a972bfdabf.png">
+
+## ERD
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537482-073a1792-7dd8-4d30-8ffc-c9e83e4490d2.png">
+
+## Package Design
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537731-f81da900-dd4c-4527-9f5a-fbc400827169.png">
+
+## KHU Data Studio
+
+### 데이터셋 관리
+
+* 데이터셋 리스트
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537877-7b5b1763-ff82-4dc0-8cdb-e252a7d83358.png">
+
+* 데이터베이스 테이블을 통한 데이터셋 등록 
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537900-8e2becbd-f247-4bb4-96f9-ee6d9f27ddca.png">
+
+* 정보 입력 후 프리뷰
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205537946-50596efb-1081-4b16-a330-b9f812e9a024.png">
+
+* CSV 파일을 통한 데이터셋 등록
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205538051-20b40307-3e37-44d3-b22b-6d0e89f6b7e7.png">
+
+
+
 
