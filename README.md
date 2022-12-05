@@ -13,6 +13,44 @@
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205538268-026c5588-e8bc-4fb6-9059-3a39b8df61cd.png">
 
+## How to Run
+
+### khu-data-studio-service-discovery
+```
+cd khu-data-studio-service-discovery
+./gradlew build
+java -jar ./build/libs/khu-data-studio-service-discovery-0.0.1-SNAPSHOT.jar
+```
+### khu-data-studio-api-gateway
+
+```
+cd ./khu-data-studio-api-gateway
+./gradlew build
+java -jar ./build/libs/khu-data-studio-api-gateway-0.0.1-SNAPSHOT.jar
+```
+### khu-data-studio-dataset-ui
+
+```
+cd ./khu-data-studio-dataset-ui
+npm i
+npm run serve
+```
+
+### khu-data-studio-preprocessing-api
+
+```
+cd ./khu-data-studio-preprocessing-api
+uvicorn main:app --reload --port=8083
+```
+
+### khu-data-studio-dataset-api
+
+```
+cd ./khu-data-studio-dataset-api
+./gradlew build
+java -jar ./build/libs/khu-data-studio-dataset-api-0.0.1-SNAPSHOT.jar
+```
+
 ## KHU Data Studio
 
 ### 데이터셋 관리
