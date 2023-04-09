@@ -74,7 +74,7 @@ EMA(i) = k * price(i) + (1-k) * EMA(i-1)
 
 ### 4. 결측치 예측
 
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/205541040-37686275-5216-4244-add6-e1201baa09ad.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/68395698/230782016-86a62ba8-68cf-4e8e-8f71-10f7ac6b9590.png">
 
 ## KHU Data Studio
 
